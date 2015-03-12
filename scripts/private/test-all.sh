@@ -36,7 +36,7 @@ node_modules/.bin/http-server -p 8000 &
 WEBSERVER_PID=$!
 
 # Run the unit and e2e tests
-for i in {0..12}
+for i in [0..12]
 do
   git checkout -f step-$i
 
