@@ -5,7 +5,7 @@ node_js:
 addons:
   firefox: "36.0.1"
 
-env: BROWSERS=firefox E2E_BROWSERS=Firefox
+env: BROWSERS=firefox E2E_BROWSERS=firefox
 
 before_script:
   - export DISPLAY=:99.0
