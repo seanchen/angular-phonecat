@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - 0.10
+  
+addons:
+  firefox: "36.0.1"
 
 env: BROWSERS=firefox E2E_BROWSERS=Firefox
 
